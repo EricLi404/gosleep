@@ -2,7 +2,7 @@ FROM golang:1.17.8
 
 ENV GO111MODULE=on \
     GOBIN="/opt/run" \
-    GOPROXY="https://goproxy.cn,https://mirrors.aliyun.com/goproxy,direct" \
+    GOPROXY="https://goproxy.cn,https://mirrors.aliyun.com/goproxy,direct"
 
 WORKDIR /
 
